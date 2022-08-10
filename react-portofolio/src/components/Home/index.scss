@@ -1,34 +1,12 @@
 .home-page {
   h1 {
-    color: #fff;
+    color: #ffffff;
     font-size: 56px;
     line-height: 53px;
     margin: 0;
     font-family: 'Consolas';
     font-weight: 400;
-
-    &:before {
-      content: '<h1>';
-      font-family: 'Consolas', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -40px;
-      left: -15px;
-      opacity: 0.6;
-    }
-
-    &:after {
-      content: '<h1/>';
-      font-family: 'Consolas', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: 18px;
-      margin-left: 20px;
-      animation: fadeIn 1s 1.7s backwards;
-      opacity: 0.6;
-    }
+    animation: fadeIn 1s 2s backwards;
   }
   .text-zone {
     position: absolute;
@@ -44,9 +22,9 @@
     margin-top: 20px;
     font-weight: 400;
     font-size: 11px;
-    font-family: sans-serif;
+    font-family: 'consolas';
     letter-spacing: 3px;
-    animation: fadeIn 1s 1.8s backwards;
+    animation: fadeIn 1s 3s backwards;
   }
 
   .flat-button {
@@ -60,7 +38,7 @@
     border: 1px solid #ffd700;
     margin-top: 25px;
     float: left;
-    animation: fadeInAnimation 1s 1.8s backwards;
+    animation: fadeIn 1s 4s backwards;
     white-space: nowrap;
 
     &:hover {

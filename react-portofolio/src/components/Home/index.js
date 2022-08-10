@@ -4,8 +4,6 @@ import './index.scss';
 import Loader from 'react-loaders';
 
 const Home = () => {
-  const [setLetterClass] = useState('text-animate');
-
   return (
     <>
       <div className='container home-page'>
@@ -16,8 +14,8 @@ const Home = () => {
           </h1>
           <h2>
             Software Engineer / Back-end Developer / Tech Enthusiast <br/>
-            <Link to='/about' className='flat-button'>About Me</Link>
           </h2>
+          <Link to='/about' className='flat-button'>About Me</Link>
         </div>
 
       </div>
