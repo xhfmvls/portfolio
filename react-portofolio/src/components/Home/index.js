@@ -5,12 +5,6 @@ import './index.scss';
 const Home = () => {
   const [setLetterClass] = useState('text-animate');
 
-  // useEffect(() => {
-  //   return setTimeout(() => {
-  //     setLetterClass('text-animate-hover')
-  //   }, 4000)
-  // }, [])
-
   return (
     <div className='container home-page'>
       <div className='text-zone'>
